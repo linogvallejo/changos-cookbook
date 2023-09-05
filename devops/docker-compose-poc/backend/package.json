@@ -1,0 +1,29 @@
+{
+  "name": "usuarios-crud-api",
+  "version": "1.0.0",
+  "description": "Dockerized ReactJs-Node.js app with MySQL database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest",
+    "api",
+    "sequelize",
+    "mysql"
+  ],
+  "author": "Lino Garcia Vallejo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.3.3",
+    "sequelize": "^6.32.0"
+  },
+  "engines": {
+    "node": ">=18.16.0"
+  }
+}
